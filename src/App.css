@@ -20,3 +20,15 @@
     transform: rotate(360deg);
   }
 }
+
+@keyframes color-change {
+  0% { border-color: red;}
+  50% { border-color: blue;}
+  100% { border-color: green;}
+}
+
+@keyframes color-change-outside {
+  0% { border-color: green;}
+  50% { border-color: blue;}
+  100% { border-color: red;}
+}
