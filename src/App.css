@@ -22,13 +22,13 @@
 }
 
 @keyframes color-change {
-  0% { border-color: '#feadce';}
-  50% { border-color: '#6cc9da';}
-  100% { border-color: '#a5afd4';}
+  0% { border-color: #feadce;}
+  50% { border-color: #6cc9da;}
+  100% { border-color: #a5afd4;}
 }
 
 @keyframes color-change-outside {
-  100% { border-color: '#feadce';}
-  50% { border-color: '#6cc9da';}
-  0% { border-color: '#a5afd4';}
+  100% { border-color: #feadce;}
+  50% { border-color: #6cc9da;}
+  0% { border-color: #a5afd4;}
 }
