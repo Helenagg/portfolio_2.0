@@ -4,7 +4,7 @@
 
 
 .App-header {
-  background-color: #000000;
+  /* background-color: #000000; */
   min-height: 100vh;
 }
 
@@ -22,13 +22,13 @@
 }
 
 @keyframes color-change {
-  0% { border-color: red;}
-  50% { border-color: blue;}
-  100% { border-color: green;}
+  0% { border-color: '#feadce';}
+  50% { border-color: '#6cc9da';}
+  100% { border-color: '#a5afd4';}
 }
 
 @keyframes color-change-outside {
-  0% { border-color: green;}
-  50% { border-color: blue;}
-  100% { border-color: red;}
+  100% { border-color: '#feadce';}
+  50% { border-color: '#6cc9da';}
+  0% { border-color: '#a5afd4';}
 }

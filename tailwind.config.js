@@ -9,6 +9,11 @@ module.exports = {
       },
       fontFamily: {
         'moirai': ['Moirai One', 'system-ui']
+      },
+      color: {
+        primary: '#feadce',
+        secondary: '#6cc9da',
+        'primary-dark': '#a5afd4'
       }
     },
   },

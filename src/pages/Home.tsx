@@ -1,9 +1,12 @@
 import React from 'react'
 import Cover from '../components/Cover'
+import NavBar from '../components/NavBar'
 
 const Home = () => {
   return (
-    <Cover/>
+    <div className='mt-20'>
+    Hola
+    </div>
   )
 }
 
