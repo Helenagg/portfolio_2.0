@@ -3,14 +3,18 @@ import laptopImage from "./../assets/projects/laptopApple.png";
 
 const Projects = () => {
   return (
-    <div className='m-20 mt-32 flex justify-center'>
-      <div>
-      <p className='text-2xl flex justify-center'>Projects</p>
+    <div className='m-10'>
+      <div className='text-2xl text-center mb-8'>
+      Projects
       </div>
-      <div className="flex">
-        <img src={laptopImage} alt="project_1" />
-        <img src={laptopImage} alt="project_1" />
-        <img src={laptopImage} alt="project_1" />
+      <div className="flex justify-center flex-wrap">
+
+        <img src={laptopImage} alt="project_1" className="w-1/3 h-auto p-2"/>
+        <img src={laptopImage} alt="project_1" className="w-1/3 h-auto p-2"/>
+        <img src={laptopImage} alt="project_1" className="w-1/3 h-auto p-2"/>
+        <img src={laptopImage} alt="project_1" className="w-1/3 h-auto p-2"/>
+        <img src={laptopImage} alt="project_1" className="w-1/3 h-auto p-2"/>
+        <img src={laptopImage} alt="project_1" className="w-1/3 h-auto p-2"/>
       </div>
     </div>
   );
